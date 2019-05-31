@@ -1,0 +1,12 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Home"></Label>
+</ActionBar>
+
+<!-- Add your page content here -->
+<StackLayout class="page">
+    <Label text="My App"></Label>
+    <Label [text]="total | async"></Label>
+    <Button text="+" (tap)="increment()"></Button>
+    <Button text="-" (tap)="decrement()"></Button>
+    <Button text="Reset" (tap)="reset()"></Button>
+</StackLayout>

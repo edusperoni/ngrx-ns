@@ -1,0 +1,41 @@
+# see http://help.github.com/ignore-files/ for more about ignoring files.
+### WEB
+# compiled output
+dist
+
+# IDE - VsCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+/subular-web/e2e/*.js
+/subular-web/e2e/*.map
+
+# system Files
+.Ds_store
+Thumbs.db
+
+node_modules
+
+platforms
+
+/**/*.js
+!/webpack.config.js
+/**/*.js.map
+/**/*.log
+/**/*.nsbuildinfo
+/platforms
+/node_modules
+/report
+!/**/*.worker.js
