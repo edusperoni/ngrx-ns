@@ -1,4 +1,4 @@
-// require("./remotedev/patch");
+import "./remotedev/patch";
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { ɵngrx_modules_store_devtools_store_devtools_i as REDUX_DEVTOOLS_EXTENSION, StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { REMOTE_DEVTOOLS_PROXY_OPTIONS, RemoteDevToolsProxy } from './remotedev/proxy';
