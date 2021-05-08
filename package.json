@@ -44,7 +44,7 @@
     "@angular/compiler-cli": "8.0.0",
     "@ngtools/webpack": "8.0.0",
     "nativescript-dev-webpack": "1.0.1",
-    "ng-packagr": "^4.4.5",
+    "ng-packagr": "^10.1.1",
     "remotedev-server": "^0.3.1",
     "typescript": "3.4.5"
   }
